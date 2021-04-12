@@ -1,0 +1,23 @@
+{
+	"name": "frontend-mentor-bookmark-landing-page",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/atorres-io/frontend-mentor-bookmark-landing-page.git"
+	},
+	"keywords": [
+		"HTML",
+		"CSS3",
+		"JavaScript",
+		"ES6",
+		"BEM",
+		"ITCSS"
+	],
+	"author": "Alejandro Torres",
+	"bugs": {
+		"url": "https://github.com/atorres-io/frontend-mentor-bookmark-landing-page/issues"
+	},
+	"homepage": "https://github.com/atorres-io/frontend-mentor-bookmark-landing-page#readme"
+}
