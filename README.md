@@ -2,6 +2,8 @@
 
 This is a solution to the [Bookmark landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bookmark-landing-page-5d0b588a9edda32581d29158). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/159b7199-c485-4e24-956c-ca4a8a196683/deploy-status)](https://app.netlify.com/sites/quizzical-euler-07620c/deploys)
+
 ## Table of contents
 
 - [Overview](#overview)

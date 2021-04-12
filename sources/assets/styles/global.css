@@ -1,0 +1,17 @@
+*,
+*:before,
+*::after {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+	font-family: 'Rubik', sans-serif; /* 400, 500 */
+}
+
+:root {
+	--soft-blue: #5368df;
+	--soft-red: #fa5757;
+
+	--grayish-blue: #9194a1;
+	--dark-blue: #252b46;
+}

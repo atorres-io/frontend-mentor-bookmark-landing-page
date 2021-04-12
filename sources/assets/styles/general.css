@@ -1,0 +1,12 @@
+html {
+	background-color: #ffffff;
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	min-height: 100vh;
+	font-size: 18px;
+	background-color: #ffffff;
+}
