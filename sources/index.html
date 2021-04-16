@@ -1,24 +1,58 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
-	<head>
-		<meta charset='UTF-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
-		<meta http-equiv='X-UA-Compatible' content='ie=edge'>
-		<meta name='keywords' content='keyword, second keyword, another keyword, last keyword'>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
 		<meta name='theme-color' content='#7D8DE3' />
-		<meta name='description' content='Bookmark landing page of Frontend Mentor Challenge'>
+    <meta name='keywords' content='keyword, second keyword, another keyword, last keyword'>
 		<meta name='autor' content='Alejandro Torres'>
+    <meta name='description' content='Bookmark landing page of Frontend Mentor Challenge'>
+    <title>Frontend Mentor | Bookmark landing page</title>
+    <link rel='canonical' href='https://quizzical-euler-07620c.netlify.app/' />
+    <link rel='apple-touch-icon' href='favicon-32x32.png' />
+    <link rel='icon' type='image/png' sizes='32x32' href='favicon-32x32.png' />
+    <link rel='stylesheet' href='../node_modules/normalize.css/normalize.css' />
+    <link rel='stylesheet' href='assets/styles/framework/atorres-io.css' />
+    <link rel='stylesheet' href='assets/styles/styles.css' />
+  </head>
 
-		<title>Frontend Mentor | Bookmark landing page</title>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+		
+		<header>
+			<div id='header' class='wrapper flex row-nowrap row-h-between row-v-center'>
+				<figure><img class='logotype' src='./assets/images/logo-bookmark.svg' alt='Bookmark logotype' /></figure>
+				<nav id='navDesktop' class='nav-desktop'>
+					<ul class='flex row-nowrap row-h-center row-v-center'>
+						<li><a href='#'>features</a></li>
+						<li><a href='#'>pricing</a></li>
+						<li><a href='#'>contact</a></li>
+						<li><a class='link-button red' href='#'>login</a></li>
+					</ul>
+				</nav>
+        <img id='hamburger' class='hamburger' src='./assets/images/icon-hamburger.svg' alt='Hamburger button' />
+			</div>
+		</header>
 
-		<link rel='canonical' href='https://quizzical-euler-07620c.netlify.app/' />
-		<link rel='apple-touch-icon' href='favicon-32x32.png' />
-		<link rel='icon' type='image/png' sizes='32x32' href='favicon-32x32.png' />
-		<link rel='stylesheet' href='assets/styles/styles.css' />
-	</head>
+    <section id='navMobile' class='nav-mobile'>
+      <div class='wrapper flex row-nowrap row-h-between row-v-center'>
+        <figure><img class='logotype' src='./assets/images/logo-bookmark-white.svg' alt='Bookmark logotype' /></figure>
+        <img id='close' class='close' src='./assets/images/icon-close.svg' alt='Close button' />
+      </div>
+      <ul class='flex column-nowrap column-h-center column-v-center'>
+        <li><a href='#'>features</a></li>
+        <li><a href='#'>pricing</a></li>
+        <li><a href='#'>contact</a></li>
+        <li><a href='#'>login</a></li>
+      </ul>
+      <div class='wrapper flex row-nowrap row-h-center row-v-center'>
+        <a href='#'><img src='./assets/images/icon-facebook.svg' alt='Facebook link' /></a>
+        <a href='#'><img src='./assets/images/icon-twitter.svg' alt='Twitter link' /></a>
+      </div>
+    </section>
 
-	<body>
-		<noscript>You need to enable JavaScript to run this app.</noscript>
-	</body>
+    <script type='text/javascript' src='./components/navigation.js'></script>
+    <script type='text/javascript' src='./app.js'></script>
+  </body>
 </html>
