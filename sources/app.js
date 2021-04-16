@@ -1,0 +1,1 @@
+const NavigationApp = new Navigation();
