@@ -12,8 +12,8 @@
 		"CSS3",
 		"JavaScript",
 		"ES6",
-		"BEM",
-		"ITCSS"
+		"ITCSS",
+		"Framework"
 	],
 	"author": "Alejandro Torres",
 	"bugs": {
@@ -21,6 +21,7 @@
 	},
 	"homepage": "https://github.com/atorres-io/frontend-mentor-bookmark-landing-page#readme",
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.15.3"
+		"@fortawesome/fontawesome-free": "^5.15.3",
+		"normalize.css": "^8.0.1"
 	}
 }
