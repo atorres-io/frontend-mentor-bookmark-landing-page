@@ -1,0 +1,135 @@
+/* General */
+
+a.link-button {
+  padding: 0 1.6rem;
+  border-radius: var(--radius-sm);
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0 7px 8px -5px rgb(145 148 161 / 45%);
+  transition: background-color 250ms ease, color 250ms ease;
+}
+
+a.red {
+  background-color: var(--soft-red);
+  border-color: var(--soft-red);
+  color: var(--white);
+}
+
+a.blue {
+  background-color: var(--soft-blue);
+  border-color: var(--soft-blue);
+  color: var(--white);
+}
+
+a.gray {
+  background-color: var(--grayish-blue);
+  border-color: var(--grayish-blue);
+  color: var(--white);
+}
+
+/* Nav Desktop */
+
+.nav-desktop ul li:not(:last-child) {
+  margin: 0 1rem;
+}
+
+.nav-desktop ul li a {
+  display: block;
+  font-size: 0.7rem;
+  height: 35px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.nav-desktop ul li :not(a.link-button) {
+  color: var(--dark-blue);
+  transition: color 250ms ease;
+}
+
+.nav-desktop ul li a.link-button { 
+  margin-left: 1.5rem; 
+}
+
+.nav-desktop ul li a:hover {
+  color: var(--soft-red);
+}
+
+.nav-desktop ul li a.red:hover {
+  background-color: var(--white);
+  color: var(--soft-red);
+}
+
+.nav-desktop ul li a.blue:hover {
+  background-color: var(--white);
+  color: var(--soft-blue);
+}
+
+.nav-desktop ul li a.gray:hover {
+  background-color: var(--grayish-blue);
+  color: var(--black);
+}
+
+/* Nav Mobile */
+
+.nav-mobile {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: -100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  padding: var(--white-space-sm) 0;
+  background-color: rgb(37 43 70 / 90%);
+  transition: left 450ms ease;
+}
+
+.nav-mobile ul {
+  flex-grow: 1;
+  max-width: 90%;
+	margin: var(--white-space-sm) auto 0 auto;
+}
+
+.nav-mobile ul li {
+  width: 100%;
+  text-align: center;
+  border-top: solid 0.5px var(--grayish-blue);
+}
+
+.nav-mobile ul li a {
+  display: block;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.nav-mobile ul li a:not(:last-child) {
+  height: 70px;
+  line-height: 70px;
+}
+
+.nav-mobile ul li:last-child {
+  padding-top: 1.5rem;
+}
+
+.nav-mobile ul li:last-child a {
+  height: 55px;
+  line-height: 55px;
+  border-radius: var(--radius-sm);
+  border: solid 3px var(--white);
+}
+
+.nav-mobile div:last-child {
+  position: absolute;
+  bottom: var(--white-space-sm);
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.nav-mobile div:last-child img {
+  margin: 0 1rem;
+}

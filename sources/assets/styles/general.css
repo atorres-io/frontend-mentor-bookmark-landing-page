@@ -1,12 +1,49 @@
-html {
-	background-color: #ffffff;
-	scroll-behavior: smooth;
+body {
+  padding-top: var(--white-space-sm);
+  font-size: 18px;
 }
 
-body {
-	width: 100%;
-	height: auto;
-	min-height: 100vh;
-	font-size: 18px;
-	background-color: #ffffff;
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+h1.display-1 {
+
+}
+
+h2.display-2 {
+
+}
+
+a {
+  font-weight: var(--text--weight-bold);
+  letter-spacing: 0.1rem;
+}
+
+span {
+
+}
+
+p {
+
 }

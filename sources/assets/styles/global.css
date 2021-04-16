@@ -1,17 +1,16 @@
-*,
-*:before,
-*::after {
-	margin: 0;
-	padding: 0;
-	outline: 0;
-	box-sizing: border-box;
-	font-family: 'Rubik', sans-serif; /* 400, 500 */
-}
-
 :root {
+	--white: #ffffff;
+	--black: #000000;
+	--color-background: #ffffff;
 	--soft-blue: #5368df;
 	--soft-red: #fa5757;
-
 	--grayish-blue: #9194a1;
 	--dark-blue: #252b46;
+	--text-weight-normal: 400;
+	--text-weight-bold: 500;
+	--radius-xl: 30px;
+	--radius-md: 10px;
+	--radius-sm: 6px;
+	--white-space-sm: 3rem;
+	--font-family: 'Rubik', sans-serif;
 }

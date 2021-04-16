@@ -1,0 +1,17 @@
+.logotype {
+  width: auto;
+  height: 25px;
+}
+
+.hamburger {
+  display: none;
+  width: auto;
+  height: 20px;
+  cursor: pointer;
+}
+
+.close {
+  width: auto;
+  height: 20px;
+  cursor: pointer;
+}
