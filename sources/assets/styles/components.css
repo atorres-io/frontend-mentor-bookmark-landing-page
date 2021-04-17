@@ -1,7 +1,7 @@
 /* General */
 
 a.link-button {
-  padding: 0 1.6rem;
+  padding: 0 1.2rem;
   border-radius: var(--radius-sm);
   border-width: 1px;
   border-style: solid;
@@ -160,7 +160,7 @@ a.gray:hover {
   width: 120%;
   height: 75%;
   background-color: var(--soft-blue);
-  border-top-left-radius: var(--radius-xl);
-  border-bottom-left-radius: var(--radius-xl);
+  border-radius: var(--radius-xl);
   z-index: -1;
+  animation: decoration 1.3s both;
 }

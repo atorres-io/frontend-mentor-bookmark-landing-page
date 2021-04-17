@@ -26,4 +26,8 @@
   .hero figure::before {
     bottom: calc(calc(var(--white-space-sm) * -1) / 5);
   }
+
+  .md-width-100 {
+    width: 100%;
+  }
 }

@@ -5,3 +5,88 @@
 .direction-reverse {
   direction: rtl;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.width-35 {
+  width: 35%;
+}
+
+.white-space-xs-bottom {
+  margin-bottom: calc(var(--white-space-sm) / 4);
+}
+
+.white-space-xxl-bottom {
+  margin-bottom: calc(var(--white-space-xl) * 1.8);
+}
+
+.animation-header {
+  animation: header 1s both;
+}
+
+.animation-texts {
+  animation: texts 1s 0.5s both;
+}
+
+.animation-texts-2temp {
+  animation: texts 1s 1s both;
+}
+
+.animation-button {
+  animation: button 1s 0.7s both;
+}
+
+.animation-image {
+  animation: image 1.5s 0.7s both;
+}
+
+@keyframes decoration {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes image {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes header {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes texts {
+  from {
+    clip-path: polygon(0% 150%, 100% 150%, 100% 150%, 0% 150%);
+  }
+  to {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 150%, 0% 150%);
+  }
+}
+
+@keyframes button {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

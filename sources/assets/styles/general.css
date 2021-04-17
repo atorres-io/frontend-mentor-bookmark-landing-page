@@ -39,7 +39,9 @@ h1.display-1 {
 }
 
 h2.display-2 {
-
+  color: var(--dark-blue);
+  font-weight: var(--text-weight-bold);
+  font-size: 35px;
 }
 
 a {
@@ -53,7 +55,8 @@ span {
 }
 
 p {
-  line-height: 1.45rem;
+  font-weight: var(--text-weight-normal);
+  line-height: 1.5rem;
   font-size: clamp(15px, 1.5vw, 18px);
   color: var(--grayish-blue);
 }
