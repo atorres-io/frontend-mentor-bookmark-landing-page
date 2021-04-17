@@ -43,16 +43,14 @@ class Navigation {
 		document.body.style.overflowY = 'hidden';
 		this.GUI.header.style.visibility = 'hidden';
 		this.GUI.navMobile.style.display = 'block';
-		window.requestAnimationFrame(() => (this.GUI.navMobile.style.left = 0));
+		window.requestAnimationFrame(() => (this.GUI.navMobile.style.opacity = 1));
 	};
 
 	_closeMobileNav = () => {
 		document.body.style.height = 'auto';
 		document.body.style.overflowY = 'auto';
 		this.GUI.header.style.visibility = 'visible';
+		window.requestAnimationFrame(() => (this.GUI.navMobile.style.opacity = 0));
 		this.GUI.navMobile.style.display = 'none';
-		window.requestAnimationFrame(
-			() => (this.GUI.navMobile.style.left = '-100%')
-		);
 	};
 }
