@@ -8,4 +8,22 @@
   .hamburger {
     display: inline;
   }
+
+  .hero :is(div, figure) {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero div {
+    padding-right: 0;
+  }
+  
+  .hero figure {
+    padding-left: 0;
+    margin-bottom: calc(var(--white-space-sm) * 1.5);
+  }
+
+  .hero figure::before {
+    bottom: calc(calc(var(--white-space-sm) * -1) / 5);
+  }
 }

@@ -3,6 +3,10 @@ body {
   font-size: 18px;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 h1 {
 
 }
@@ -28,7 +32,10 @@ h6 {
 }
 
 h1.display-1 {
-
+  color: var(--dark-blue);
+  font-weight: var(--text-weight-bold);
+  font-size: clamp(29px, 4vw, 42px);
+  line-height: 2.6rem;
 }
 
 h2.display-2 {
@@ -36,6 +43,7 @@ h2.display-2 {
 }
 
 a {
+  display: inline-block;
   font-weight: var(--text--weight-bold);
   letter-spacing: 0.1rem;
 }
@@ -45,5 +53,7 @@ span {
 }
 
 p {
-
+  line-height: 1.45rem;
+  font-size: clamp(15px, 1.5vw, 18px);
+  color: var(--grayish-blue);
 }

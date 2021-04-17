@@ -8,9 +8,10 @@
 	--dark-blue: #252b46;
 	--text-weight-normal: 400;
 	--text-weight-bold: 500;
-	--radius-xl: 30px;
+	--radius-xl: 30rem;
 	--radius-md: 10px;
 	--radius-sm: 6px;
+	--white-space-xl: 4rem;
 	--white-space-sm: 3rem;
 	--font-family: 'Rubik', sans-serif;
 }

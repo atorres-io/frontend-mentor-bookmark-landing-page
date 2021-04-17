@@ -1,0 +1,7 @@
+.white-space-xl {
+  margin: var(--white-space-xl) auto;
+}
+
+.direction-reverse {
+  direction: rtl;
+}
