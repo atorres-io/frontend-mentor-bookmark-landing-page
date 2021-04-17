@@ -21,7 +21,7 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
 		
 		<header>
-			<div id='header' class='wrapper flex row-nowrap row-h-between row-v-center'>
+			<div id='header' class='wrapper flex row-nowrap row-h-between row-v-center animation-header'>
 				<figure><img class='logotype' src='./assets/images/logo-bookmark.svg' alt='Bookmark logotype' /></figure>
 				<nav id='navDesktop' class='nav-desktop'>
 					<ul class='flex row-nowrap row-h-center row-v-center'>
@@ -36,14 +36,18 @@
 		</header>
 
     <main>
-      <div class='hero wrapper white-space-xl flex row-nowrap md-column-nowrap-reverse row-v-center md-column-h-center md-column-v-start'>
+      <div class='hero wrapper white-space-xl white-space-xxl-bottom flex row-nowrap md-column-nowrap-reverse row-v-center md-column-h-center md-column-v-start initial-animation'>
         <div>
-          <h1 class='display-1'>A Simple Bookmark Manager</h1>
-          <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-          <a class='link-button blue' href='#'>Get it on Chrome</a>
-          <a class='link-button gray' href='#'>Get it on Firefox</a>
+          <h1 class='display-1 animation-texts'>A Simple Bookmark Manager</h1>
+          <p class='animation-texts'>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+          <a class='link-button blue animation-button' href='#'>Get it on Chrome</a>
+          <a class='link-button gray animation-button' href='#'>Get it on Firefox</a>
         </div>
-        <figure><img src='./assets/images/illustration-hero.svg' alt='Illustration Hero' /></figure>
+        <figure><img class='animation-image' src='./assets/images/illustration-hero.svg' alt='Illustration Hero' /></figure>
+      </div>
+      <div class='wrapper text-center width-35 md-width-100'>
+        <h2 class='display-2 white-space-xs-bottom animation-texts-2temp'>Features</h2>
+        <p class='animation-texts-2temp'>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
       </div>
     </main>
 
