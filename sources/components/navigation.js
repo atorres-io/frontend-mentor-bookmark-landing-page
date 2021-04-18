@@ -27,13 +27,11 @@ class Navigation {
 	};
 
 	initListeners = () => {
-		document.title = 'Frontend Mentor | Bookmark landing page';
 		this.GUI.hamburger.addEventListener('click', this._openMobileNav);
 		this.GUI.close.addEventListener('click', this._closeMobileNav);
 	};
 
 	closeListeners = () => {
-		document.title = 'Eh! Come back please :(';
 		this.GUI.hamburger.removeEventListener('click', this._openMobileNav);
 		this.GUI.close.removeEventListener('click', this._closeMobileNav);
 	};
