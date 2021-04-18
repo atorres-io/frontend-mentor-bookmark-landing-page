@@ -119,9 +119,11 @@ a {
 /* Medium Size - Tablets */
 
 @media screen and (max-width: 640px) {
+	.md-column-wrap { flex-flow: column wrap; }
+	.md-column-nowrap { flex-flow: column nowrap; }
 	.md-row-wrap-reverse { flex-flow: row-reverse wrap; }
 	.md-row-nowrap-reverse { flex-flow: row-reverse nowrap; }
-	.md-column-wrap.reverse { flex-flow: column-reverse wrap; }
+	.md-column-wrap-reverse { flex-flow: column-reverse wrap; }
 	.md-column-nowrap-reverse { flex-flow: column-reverse nowrap; }
 
 	.md-row-h-center { justify-content: center; }

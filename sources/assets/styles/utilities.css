@@ -2,6 +2,10 @@
   margin: var(--white-space-xl) auto;
 }
 
+.white-space-md {
+  margin: var(--white-space-sm) auto;
+}
+
 .direction-reverse {
   direction: rtl;
 }
@@ -40,6 +44,11 @@
 
 .animation-image {
   animation: image 1.5s 0.7s both;
+}
+
+.link-active {
+  color: var(--dark-blue) !important;
+  border-bottom: solid 3px var(--soft-red) !important;
 }
 
 @keyframes decoration {
