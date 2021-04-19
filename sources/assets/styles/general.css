@@ -41,7 +41,14 @@ h1.display-1 {
 h2.display-2 {
   color: var(--dark-blue);
   font-weight: var(--text-weight-bold);
-  font-size: 35px;
+  font-size: 32px;
+}
+
+h3.display-3 {
+  color: var(--dark-blue);
+  font-weight: var(--text-weight-bold);
+  font-size: clamp(25px, 3.5vw, 35px);
+  margin-bottom: 0.7rem;
 }
 
 a {

@@ -180,3 +180,32 @@ a.gray:hover {
   z-index: -1;
   animation: decoration 1.3s both;
 }
+
+/* Features area */
+
+.features :is(div, figure) { width: 50%; }
+.features div { padding-left: 5vw; }
+.features figure { position: relative; }
+.features figure { padding-right: 1vw; }
+.features figure img { width: 85%; }
+.features div p { margin-bottom: calc(var(--white-space-sm) / 2); }
+
+.features div a {
+  font-size: 0.7rem;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 0.5rem;
+}
+
+.features figure::before {
+  position: absolute;
+  content: '';
+  bottom: calc(var(--white-space-sm) * -1);
+  left: -50%;
+  width: 120%;
+  height: 75%;
+  background-color: var(--soft-blue);
+  border-radius: var(--radius-xl);
+  z-index: -1;
+  animation: decoration 1.3s both;
+}
