@@ -22,8 +22,12 @@
   margin-bottom: calc(var(--white-space-sm) / 4);
 }
 
-.white-space-xxl-bottom {
-  margin-bottom: calc(var(--white-space-xl) * 1.8);
+.white-space-xs-top {
+  margin-top: calc(var(--white-space-sm) / 2);
+}
+
+.white-space-xs-top-2 {
+  margin-top: var(--white-space-sm);
 }
 
 .animation-header {

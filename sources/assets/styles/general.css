@@ -7,29 +7,25 @@ main {
   overflow-x: hidden;
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
+h1 {}
+h2 {}
+h3 {}
 
 h4 {
-
+  color: var(--dark-blue);
+  font-weight: var(--text-weight-bold);
+  font-size: clamp(20px, 2.3vw, 22px);
+  margin-bottom: 0.7rem;
 }
 
 h5 {
-
+  color: var(--dark-blue);
+  font-weight: var(--text-weight-normal);
+  font-size: clamp(15px, 2vw, 20px);
+  margin-bottom: 1.2rem;
 }
 
-h6 {
-
-}
+h6 {}
 
 h1.display-1 {
   color: var(--dark-blue);
@@ -58,7 +54,10 @@ a {
 }
 
 span {
-
+  font-weight: var(--text-weight-normal);
+  line-height: 1.5rem;
+  font-size: clamp(14px, 1.5vw, 16px);
+  color: var(--grayish-blue);
 }
 
 p {
