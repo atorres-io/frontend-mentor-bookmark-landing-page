@@ -120,8 +120,18 @@
         <div class='footer wrapper padding-md-top-bottom width-35 md-width-100 text-center'>
           <span class='letter-spacing-md color-white'>35,000+ ALREADY JOINED</span>
           <h6>Stay up-to-date with what we’re doing</h6>
-          <input class='md-width-100 white-space-sm-right' id='email' type='email' placeholder='Enter your email address' />
-          <a class='link-button red md-width-100' href='#'>Contact Us</a>
+          <div class='flex row-nowrap row-h-center row-v-start md-column-nowrap md-column-h-center md-column-v-start'>
+            <div class='width-300 md-width-100 relative white-space-sm-right' style='height: 42px; margin-bottom: 2.5rem;'>
+              <input 
+              class='md-width-100 white-space-sm-right' 
+              id='email' 
+              type='email' 
+              placeholder='Enter your email address'
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+              <label for='email'>Whoops, make sure it's an email</label>
+            </div>
+            <a class='link-button red md-width-100' href='#'>Contact Us</a>
+          </div>
         </div>
       </div>
     </main>

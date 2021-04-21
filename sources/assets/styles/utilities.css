@@ -30,6 +30,14 @@
   background-color: var(--soft-blue);
 }
 
+.width-300 {
+  width: 300px;
+}
+
+.relative {
+  position: relative;
+}
+
 .width-100 {
   width: 100%;
 }
