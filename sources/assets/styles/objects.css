@@ -16,6 +16,33 @@
   cursor: pointer;
 }
 
+input[type='email'] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: inline-block;
+  width: 300px;
+  height: 42px;
+  border: none;
+  padding: 0 15px;
+  font-size: 0.7rem;
+  color: var(--dark-blue);
+  border-radius: var(--radius-sm);
+  background-color: var(--white);
+  margin-bottom: 2.5rem;
+}
+
+.footer a {
+  font-size: 0.8rem;
+  height: 40px;
+  line-height: 40px;
+}
+
+input[type='email']::placeholder {
+  font-size: 0.7rem;
+  color: var(--grayish-blue);
+
+}
+
 /* Card styles */
 
 .card {

@@ -6,6 +6,10 @@
   margin: var(--white-space-sm) auto;
 }
 
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
 .direction-reverse {
   direction: rtl;
 }
@@ -14,12 +18,37 @@
   text-align: center;
 }
 
+.letter-spacing-md {
+  letter-spacing: 0.5px;
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.background-blue {
+  background-color: var(--soft-blue);
+}
+
+.width-100 {
+  width: 100%;
+}
+
 .width-35 {
   width: 35%;
 }
 
+.padding-md-top-bottom {
+  padding-top: var(--white-space-sm);
+  padding-bottom: var(--white-space-sm);
+}
+
 .white-space-xs-bottom {
   margin-bottom: calc(var(--white-space-sm) / 4);
+}
+
+.white-space-md-bottom {
+  margin-bottom: calc(var(--white-space-sm) / 2);
 }
 
 .white-space-xs-top {

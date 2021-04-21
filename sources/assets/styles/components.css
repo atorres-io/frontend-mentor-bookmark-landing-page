@@ -266,3 +266,18 @@ a.gray:hover {
   content: url('../images/icon-arrow-red.svg');
   transform: rotate(180deg);
 }
+
+.social-media a {
+  margin: 0 1rem;
+}
+
+.social-media svg {
+  width: 25px;
+  height: 22px;
+  fill: var(--white);
+  transition: fill 250ms ease;
+}
+
+.social-media svg:hover {
+  fill: var(--soft-red);
+}
