@@ -19,9 +19,5 @@
 	"bugs": {
 		"url": "https://github.com/atorres-io/frontend-mentor-bookmark-landing-page/issues"
 	},
-	"homepage": "https://github.com/atorres-io/frontend-mentor-bookmark-landing-page#readme",
-	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.15.3",
-		"normalize.css": "^8.0.1"
-	}
+	"homepage": "https://github.com/atorres-io/frontend-mentor-bookmark-landing-page#readme"
 }
